@@ -54,8 +54,6 @@ select * from customer where first_name like "a%" ;
 
 
 -- 15 Find all customers whose first name ends with "a".
-select * from customer where first_name like "%a" ; -- willl give all detail 
- -- or 
 select first_name from customer where first_name like "%a";-- will give only specific detail
 
 -- 16 display the list of first 4 cities which start and end with ‘a’ . 
